@@ -1,0 +1,14 @@
+{
+  "name": "graph-ql-node-express",
+  "version": "1.0.0",
+  "description": "Simple graph ql with express server",
+  "main": "index.js",
+  "repository": "https://github.com/blueberrry/graphql-node-express.git",
+  "author": "Sean Roughton",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0"
+  }
+}
