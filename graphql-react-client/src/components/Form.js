@@ -19,9 +19,6 @@ function Form() {
 
   const [createBird, { error }] = useMutation(CREATE_BIRD_MUTATION);
 
-  // test update
-  const pretendFunction = () => {};
-
   const addBird = (e) => {
     e.preventDefault();
 
