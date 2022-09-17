@@ -19,10 +19,6 @@ function Form() {
 
   const [createBird, { error }] = useMutation(CREATE_BIRD_MUTATION);
 
-  const makeSomeChangesOnTestBranc = () => {
-    console.log("I'm making some changes");
-  };
-
   const addBird = (e) => {
     e.preventDefault();
 
