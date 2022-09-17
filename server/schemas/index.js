@@ -26,8 +26,6 @@ const RootQuery = new GraphQLObjectType({
       type: new GraphQLList(BirdType),
       args: { conservationStatus: { type: GraphQLString } },
       resolve(parent, args) {
-        console.log('🚀 ~ file: index.js ~ line 29 ~ resolve ~ args', args);
-        console.log('🚀 ~ file: index.js ~ line 29 ~ resolve ~ parent', parent);
         return birdData.filter((item) => item.uk_conservation_status === args.conservationStatus);
       },
     },
